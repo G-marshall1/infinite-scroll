@@ -10,7 +10,13 @@ html {
     color-scheme: dark;
   }
 
-  body {
+header {
+  position: fixed;
+  width: 100%;
+  color-scheme: dark !important;
+}
+
+  main {
     display: grid;
     min-block-size: 100vh;
     place-content: center;
@@ -76,6 +82,9 @@ html {
     }
   }
 
-  .test {
-    background-color: red !important;
-  }
+
+  .enterBtn {
+    display: flex;
+    flex-wrap: wrap;
+background: none;  
+}
